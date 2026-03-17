@@ -8,7 +8,7 @@ export async function main() {
     const PORT: number = env.PORT ? +env.PORT : 6000;
 
     server.listen(PORT, () => {
-      console.log(`server is running at ${PORT} port...`);
+      console.log(`server is running on ${PORT} port...`);
     });
   } catch (error) {
     throw error;
