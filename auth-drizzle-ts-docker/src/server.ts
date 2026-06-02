@@ -1,5 +1,10 @@
 import http from "node:http"
 import { createApp } from "./app/app.js"
+import 'dotenv/config';
+ import { db } from "./db/db.js";
+
+ 
+
 
  async function main(){
     const server = http.createServer(createApp())
