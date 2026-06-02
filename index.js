@@ -13,3 +13,6 @@ const obj = {
 const objOne = new 
 
 console.log(objOne)
+console.log('hey, i got pushed br termux.js file')
+
+
