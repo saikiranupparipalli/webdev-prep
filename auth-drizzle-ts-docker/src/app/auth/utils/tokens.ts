@@ -5,6 +5,8 @@ dotenv.config();
 
 export interface userToken {
   id: string;
+  email?: string;
+  // refreshtoken?:string
 }
 
 export const accessToken = (payload: userToken) => {
